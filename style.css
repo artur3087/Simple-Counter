@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+.layout {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 60px;
+    gap: 5px;
+}
+
+#count {
+    background-color: darkblue;
+
+}
+
+#btnDecr {
+    background-color: bisque;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#btnIncr {
+    background-color: bisque;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#btnReset {
+    background-color: bisque;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#btnDecr:hover {
+    background: transparent;
+    color: white;
+}
+
+#btnIncr:hover {
+    background: transparent;
+    color: white;
+}
+
+#btnReset:hover {
+    background: transparent;
+    color: white;
+}
+
+
